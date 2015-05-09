@@ -5,11 +5,7 @@
  */
 package com.beliapalagi.restful;
 
-import com.beliapalagi.restful.object.FsMstEducation;
-import com.beliapalagi.restful.object.FsMstEmployees;
 import com.beliapalagi.restful.object.WebServiceLDAP;
-import com.beliapalagi.restful.service.FsMstEducationService;
-import com.beliapalagi.restful.service.FsMstEmployeesService;
 import com.beliapalagi.restful.util.ADAuthenticator;
 import java.util.ArrayList;
 import java.util.HashSet;
