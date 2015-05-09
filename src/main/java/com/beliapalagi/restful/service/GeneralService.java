@@ -1,0 +1,4 @@
+public calss GeneralService {
+
+    GeneralService(){} 
+}
