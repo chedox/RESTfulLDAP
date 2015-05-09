@@ -30,10 +30,9 @@ public class ADAuthenticator {
     private String searchBase;
 
     public ADAuthenticator() {
-        this.domain = "fif.co.id";
-        this.ldapHost = "ldap://fif.co.id";
-        this.searchBase = "DC=fif,DC=co,DC=id"; // YOUR SEARCH BASE IN LDAP  
-        //this.searchBase = "OU=Users,OU=XXXXXX,DC=fif,DC=co,DC=id"; // YOUR SEARCH BASE IN LDAP  
+        this.domain = "yourdomain.com";
+        this.ldapHost = "ldap://yourhost.com";
+        this.searchBase = "DC=you,DC=ur,DC=host"; // YOUR SEARCH BASE IN LDAP  
     }
 
     public ADAuthenticator(String domain, String host, String dn) {
