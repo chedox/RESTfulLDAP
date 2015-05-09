@@ -1,4 +1,5 @@
-public calss GeneralService {
+package com.beliapalagi.restful.service;
 
-    GeneralService(){} 
+public interface GeneralService {
+
 }
