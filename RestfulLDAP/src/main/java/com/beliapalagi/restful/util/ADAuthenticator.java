@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.beliapalagi.restful.util;
 
 import java.util.HashMap;
@@ -30,10 +25,9 @@ public class ADAuthenticator {
     private String searchBase;
 
     public ADAuthenticator() {
-        this.domain = "fif.co.id";
-        this.ldapHost = "ldap://fif.co.id";
-        this.searchBase = "DC=fif,DC=co,DC=id"; // YOUR SEARCH BASE IN LDAP  
-        //this.searchBase = "OU=Users,OU=XXXXXX,DC=fif,DC=co,DC=id"; // YOUR SEARCH BASE IN LDAP  
+        this.domain = "beliapalagi.com";
+        this.ldapHost = "ldap://beliapalagi.com";
+        this.searchBase = "DC=beliapalagi"; // YOUR SEARCH BASE IN LDAP  
     }
 
     public ADAuthenticator(String domain, String host, String dn) {
