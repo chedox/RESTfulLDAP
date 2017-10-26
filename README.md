@@ -12,7 +12,7 @@ RESTfulLDAP
 
 
 . The userid parameter value and password parameter value is reflected in the response:
-  [{"retval":0,"username":"out342","password":"pwd1234A","message":"Successfull to validate LDAP"}]
+  [{"retval":0,"username":"chedox","password":"pwd1234A","message":"Successfull to validate LDAP"}]
 
 What you’ll need:
 -----------------------
